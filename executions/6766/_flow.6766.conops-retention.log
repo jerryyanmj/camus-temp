@@ -1,0 +1,11 @@
+31-10-2013 16:50:00 PDT conops-retention INFO - Running execid:6766 flow:conops-retention project:3 version:10
+31-10-2013 16:50:00 PDT conops-retention INFO - Update active reference
+31-10-2013 16:50:00 PDT conops-retention INFO - Updating initial flow directory.
+31-10-2013 16:50:00 PDT conops-retention INFO - Fetching job and shared properties.
+31-10-2013 16:50:00 PDT conops-retention INFO - Starting flows
+31-10-2013 16:50:00 PDT conops-retention INFO - Submitting job conops-retention to run.
+31-10-2013 16:50:00 PDT conops-retention INFO - Job Finished conops-retention with status FAILED
+31-10-2013 16:50:00 PDT conops-retention INFO - Finishing up flow. Awaiting Termination
+31-10-2013 16:50:00 PDT conops-retention INFO - Setting flow status to Failed.
+31-10-2013 16:50:00 PDT conops-retention INFO - Flow is set to FAILED
+31-10-2013 16:50:00 PDT conops-retention INFO - Setting end time for flow 6766 to 1383263400503

@@ -1,0 +1,11 @@
+31-10-2013 16:48:00 PDT pullCDNLogsHourly INFO - Running execid:6764 flow:pullCDNLogsHourly project:3 version:10
+31-10-2013 16:48:00 PDT pullCDNLogsHourly INFO - Update active reference
+31-10-2013 16:48:00 PDT pullCDNLogsHourly INFO - Updating initial flow directory.
+31-10-2013 16:48:00 PDT pullCDNLogsHourly INFO - Fetching job and shared properties.
+31-10-2013 16:48:00 PDT pullCDNLogsHourly INFO - Starting flows
+31-10-2013 16:48:00 PDT pullCDNLogsHourly INFO - Submitting job pullCDNLogsHourly to run.
+31-10-2013 16:48:00 PDT pullCDNLogsHourly INFO - Job Finished pullCDNLogsHourly with status FAILED
+31-10-2013 16:48:00 PDT pullCDNLogsHourly INFO - Finishing up flow. Awaiting Termination
+31-10-2013 16:48:00 PDT pullCDNLogsHourly INFO - Setting flow status to Failed.
+31-10-2013 16:48:00 PDT pullCDNLogsHourly INFO - Flow is set to FAILED
+31-10-2013 16:48:00 PDT pullCDNLogsHourly INFO - Setting end time for flow 6764 to 1383263280260

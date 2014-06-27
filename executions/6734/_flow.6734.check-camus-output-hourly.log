@@ -1,0 +1,11 @@
+31-10-2013 15:50:00 PDT check-camus-output-hourly INFO - Running execid:6734 flow:check-camus-output-hourly project:1 version:79
+31-10-2013 15:50:00 PDT check-camus-output-hourly INFO - Update active reference
+31-10-2013 15:50:00 PDT check-camus-output-hourly INFO - Updating initial flow directory.
+31-10-2013 15:50:00 PDT check-camus-output-hourly INFO - Fetching job and shared properties.
+31-10-2013 15:50:00 PDT check-camus-output-hourly INFO - Starting flows
+31-10-2013 15:50:00 PDT check-camus-output-hourly INFO - Submitting job check-camus-output-hourly to run.
+31-10-2013 15:50:01 PDT check-camus-output-hourly INFO - Job Finished check-camus-output-hourly with status FAILED
+31-10-2013 15:50:01 PDT check-camus-output-hourly INFO - Finishing up flow. Awaiting Termination
+31-10-2013 15:50:01 PDT check-camus-output-hourly INFO - Setting flow status to Failed.
+31-10-2013 15:50:01 PDT check-camus-output-hourly INFO - Flow is set to FAILED
+31-10-2013 15:50:01 PDT check-camus-output-hourly INFO - Setting end time for flow 6734 to 1383259801193

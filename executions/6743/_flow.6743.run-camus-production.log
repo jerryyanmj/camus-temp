@@ -1,0 +1,11 @@
+31-10-2013 16:00:00 PDT run-camus-production INFO - Running execid:6743 flow:run-camus-production project:1 version:79
+31-10-2013 16:00:00 PDT run-camus-production INFO - Update active reference
+31-10-2013 16:00:00 PDT run-camus-production INFO - Updating initial flow directory.
+31-10-2013 16:00:00 PDT run-camus-production INFO - Fetching job and shared properties.
+31-10-2013 16:00:00 PDT run-camus-production INFO - Starting flows
+31-10-2013 16:00:00 PDT run-camus-production INFO - Submitting job run-camus-production to run.
+31-10-2013 16:00:00 PDT run-camus-production INFO - Job Finished run-camus-production with status FAILED
+31-10-2013 16:00:00 PDT run-camus-production INFO - Finishing up flow. Awaiting Termination
+31-10-2013 16:00:00 PDT run-camus-production INFO - Setting flow status to Failed.
+31-10-2013 16:00:00 PDT run-camus-production INFO - Flow is set to FAILED
+31-10-2013 16:00:00 PDT run-camus-production INFO - Setting end time for flow 6743 to 1383260400911

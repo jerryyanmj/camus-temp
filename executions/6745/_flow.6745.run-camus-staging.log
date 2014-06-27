@@ -1,0 +1,11 @@
+31-10-2013 16:00:01 PDT run-camus-staging INFO - Running execid:6745 flow:run-camus-staging project:1 version:79
+31-10-2013 16:00:01 PDT run-camus-staging INFO - Update active reference
+31-10-2013 16:00:01 PDT run-camus-staging INFO - Updating initial flow directory.
+31-10-2013 16:00:01 PDT run-camus-staging INFO - Fetching job and shared properties.
+31-10-2013 16:00:01 PDT run-camus-staging INFO - Starting flows
+31-10-2013 16:00:02 PDT run-camus-staging INFO - Submitting job run-camus-staging to run.
+31-10-2013 16:00:02 PDT run-camus-staging INFO - Job Finished run-camus-staging with status FAILED
+31-10-2013 16:00:02 PDT run-camus-staging INFO - Finishing up flow. Awaiting Termination
+31-10-2013 16:00:02 PDT run-camus-staging INFO - Setting flow status to Failed.
+31-10-2013 16:00:02 PDT run-camus-staging INFO - Flow is set to FAILED
+31-10-2013 16:00:02 PDT run-camus-staging INFO - Setting end time for flow 6745 to 1383260402631

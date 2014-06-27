@@ -1,0 +1,11 @@
+31-10-2013 16:00:00 PDT hdfsspace INFO - Running execid:6742 flow:hdfsspace project:3 version:10
+31-10-2013 16:00:00 PDT hdfsspace INFO - Update active reference
+31-10-2013 16:00:00 PDT hdfsspace INFO - Updating initial flow directory.
+31-10-2013 16:00:00 PDT hdfsspace INFO - Fetching job and shared properties.
+31-10-2013 16:00:00 PDT hdfsspace INFO - Starting flows
+31-10-2013 16:00:00 PDT hdfsspace INFO - Submitting job hdfsspace to run.
+31-10-2013 16:00:00 PDT hdfsspace INFO - Job Finished hdfsspace with status FAILED
+31-10-2013 16:00:00 PDT hdfsspace INFO - Finishing up flow. Awaiting Termination
+31-10-2013 16:00:00 PDT hdfsspace INFO - Setting flow status to Failed.
+31-10-2013 16:00:00 PDT hdfsspace INFO - Flow is set to FAILED
+31-10-2013 16:00:00 PDT hdfsspace INFO - Setting end time for flow 6742 to 1383260400590

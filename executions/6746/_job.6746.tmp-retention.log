@@ -1,0 +1,11 @@
+31-10-2013 16:00:02 PDT tmp-retention INFO - Starting job tmp-retention at 1383260402513
+31-10-2013 16:00:02 PDT tmp-retention INFO - Building command job executor. 
+31-10-2013 16:00:02 PDT tmp-retention INFO - job built.
+31-10-2013 16:00:02 PDT tmp-retention INFO - 1 commands to execute.
+31-10-2013 16:00:02 PDT tmp-retention INFO - Command: runuser -l acep -c "/data/acep/automation-scripts/deletion-scripts/tmp-retention.sh"
+31-10-2013 16:00:02 PDT tmp-retention INFO - Environment variables: {JOB_NAME=tmp-retention, JOB_PROP_FILE=/data/acep/kafka8-merge-camus/executions/6746/tmp-retention_1727819128868077206_tmp, JOB_OUTPUT_PROP_FILE=/data/acep/kafka8-merge-camus/executions/6746/tmp-retention_output_4357179780714797487_tmp}
+31-10-2013 16:00:02 PDT tmp-retention INFO - Working directory: /data/acep/kafka8-merge-camus/executions/6746
+31-10-2013 16:00:02 PDT tmp-retention INFO - Process completed unsuccessfully in 0 seconds.
+31-10-2013 16:00:02 PDT tmp-retention ERROR - Job run failed!
+31-10-2013 16:00:02 PDT tmp-retention ERROR - azkaban.jobExecutor.utils.process.ProcessFailureExceptionazkaban.jobExecutor.utils.process.ProcessFailureException
+31-10-2013 16:00:02 PDT tmp-retention INFO - Finishing job tmp-retention at 1383260402791

@@ -1,0 +1,11 @@
+31-10-2013 16:00:02 PDT tmp-retention INFO - Running execid:6746 flow:tmp-retention project:1 version:79
+31-10-2013 16:00:02 PDT tmp-retention INFO - Update active reference
+31-10-2013 16:00:02 PDT tmp-retention INFO - Updating initial flow directory.
+31-10-2013 16:00:02 PDT tmp-retention INFO - Fetching job and shared properties.
+31-10-2013 16:00:02 PDT tmp-retention INFO - Starting flows
+31-10-2013 16:00:02 PDT tmp-retention INFO - Submitting job tmp-retention to run.
+31-10-2013 16:00:02 PDT tmp-retention INFO - Job Finished tmp-retention with status FAILED
+31-10-2013 16:00:02 PDT tmp-retention INFO - Finishing up flow. Awaiting Termination
+31-10-2013 16:00:02 PDT tmp-retention INFO - Setting flow status to Failed.
+31-10-2013 16:00:02 PDT tmp-retention INFO - Flow is set to FAILED
+31-10-2013 16:00:02 PDT tmp-retention INFO - Setting end time for flow 6746 to 1383260402828

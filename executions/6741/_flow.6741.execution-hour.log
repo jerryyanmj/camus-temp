@@ -1,0 +1,11 @@
+31-10-2013 15:59:00 PDT execution-hour INFO - Running execid:6741 flow:execution-hour project:3 version:10
+31-10-2013 15:59:00 PDT execution-hour INFO - Update active reference
+31-10-2013 15:59:00 PDT execution-hour INFO - Updating initial flow directory.
+31-10-2013 15:59:00 PDT execution-hour INFO - Fetching job and shared properties.
+31-10-2013 15:59:00 PDT execution-hour INFO - Starting flows
+31-10-2013 15:59:00 PDT execution-hour INFO - Submitting job execution-hour to run.
+31-10-2013 15:59:00 PDT execution-hour INFO - Job Finished execution-hour with status FAILED
+31-10-2013 15:59:00 PDT execution-hour INFO - Finishing up flow. Awaiting Termination
+31-10-2013 15:59:00 PDT execution-hour INFO - Setting flow status to Failed.
+31-10-2013 15:59:00 PDT execution-hour INFO - Flow is set to FAILED
+31-10-2013 15:59:00 PDT execution-hour INFO - Setting end time for flow 6741 to 1383260340565

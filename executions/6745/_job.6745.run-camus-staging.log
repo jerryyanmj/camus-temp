@@ -1,0 +1,11 @@
+31-10-2013 16:00:02 PDT run-camus-staging INFO - Starting job run-camus-staging at 1383260402123
+31-10-2013 16:00:02 PDT run-camus-staging INFO - Building command job executor. 
+31-10-2013 16:00:02 PDT run-camus-staging INFO - job built.
+31-10-2013 16:00:02 PDT run-camus-staging INFO - 1 commands to execute.
+31-10-2013 16:00:02 PDT run-camus-staging INFO - Command: runuser -l acep -c "/data/acep/automation-scripts/hourly-automation-scripts/run-camus-staging.sh"
+31-10-2013 16:00:02 PDT run-camus-staging INFO - Environment variables: {JOB_NAME=run-camus-staging, JOB_PROP_FILE=/data/acep/kafka8-merge-camus/executions/6745/run-camus-staging_1801625890203193755_tmp, JOB_OUTPUT_PROP_FILE=/data/acep/kafka8-merge-camus/executions/6745/run-camus-staging_output_171626973311150076_tmp}
+31-10-2013 16:00:02 PDT run-camus-staging INFO - Working directory: /data/acep/kafka8-merge-camus/executions/6745
+31-10-2013 16:00:02 PDT run-camus-staging INFO - Process completed unsuccessfully in 0 seconds.
+31-10-2013 16:00:02 PDT run-camus-staging ERROR - Job run failed!
+31-10-2013 16:00:02 PDT run-camus-staging ERROR - azkaban.jobExecutor.utils.process.ProcessFailureExceptionazkaban.jobExecutor.utils.process.ProcessFailureException
+31-10-2013 16:00:02 PDT run-camus-staging INFO - Finishing job run-camus-staging at 1383260402424

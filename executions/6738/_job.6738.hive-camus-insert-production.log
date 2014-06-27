@@ -1,0 +1,12 @@
+31-10-2013 15:55:00 PDT hive-camus-insert-production INFO - Starting job hive-camus-insert-production at 1383260100304
+31-10-2013 15:55:00 PDT hive-camus-insert-production INFO - Building command job executor. 
+31-10-2013 15:55:00 PDT hive-camus-insert-production INFO - job built.
+31-10-2013 15:55:00 PDT hive-camus-insert-production INFO - 1 commands to execute.
+31-10-2013 15:55:00 PDT hive-camus-insert-production INFO - Command: runuser -l acep -c "/data/acep/automation-scripts/hourly-automation-scripts/hive-camus-insert-production.sh"
+31-10-2013 15:55:00 PDT hive-camus-insert-production INFO - Environment variables: {JOB_NAME=hive-camus-insert-production, JOB_PROP_FILE=/data/acep/kafka8-merge-camus/executions/6738/hive-camus-insert-production_1321037370763838449_tmp, JOB_OUTPUT_PROP_FILE=/data/acep/kafka8-merge-camus/executions/6738/hive-camus-insert-production_output_8544510223300854128_tmp}
+31-10-2013 15:55:00 PDT hive-camus-insert-production INFO - Working directory: /data/acep/kafka8-merge-camus/executions/6738
+31-10-2013 15:55:00 PDT hive-camus-insert-production ERROR - runuser: cannot set groups: Operation not permitted
+31-10-2013 15:55:00 PDT hive-camus-insert-production INFO - Process completed unsuccessfully in 0 seconds.
+31-10-2013 15:55:00 PDT hive-camus-insert-production ERROR - Job run failed!
+31-10-2013 15:55:00 PDT hive-camus-insert-production ERROR - azkaban.jobExecutor.utils.process.ProcessFailureExceptionazkaban.jobExecutor.utils.process.ProcessFailureException
+31-10-2013 15:55:00 PDT hive-camus-insert-production INFO - Finishing job hive-camus-insert-production at 1383260100453

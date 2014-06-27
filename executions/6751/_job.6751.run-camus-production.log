@@ -1,0 +1,12 @@
+31-10-2013 16:20:00 PDT run-camus-production INFO - Starting job run-camus-production at 1383261600434
+31-10-2013 16:20:00 PDT run-camus-production INFO - Building command job executor. 
+31-10-2013 16:20:00 PDT run-camus-production INFO - job built.
+31-10-2013 16:20:00 PDT run-camus-production INFO - 1 commands to execute.
+31-10-2013 16:20:00 PDT run-camus-production INFO - Command: runuser -l acep -c "/data/acep/automation-scripts/hourly-automation-scripts/run-camus-production.sh"
+31-10-2013 16:20:00 PDT run-camus-production INFO - Environment variables: {JOB_NAME=run-camus-production, JOB_PROP_FILE=/data/acep/kafka8-merge-camus/executions/6751/run-camus-production_6046145016344337850_tmp, JOB_OUTPUT_PROP_FILE=/data/acep/kafka8-merge-camus/executions/6751/run-camus-production_output_4352587511652513921_tmp}
+31-10-2013 16:20:00 PDT run-camus-production INFO - Working directory: /data/acep/kafka8-merge-camus/executions/6751
+31-10-2013 16:20:00 PDT run-camus-production INFO - Process completed unsuccessfully in 0 seconds.
+31-10-2013 16:20:00 PDT run-camus-production ERROR - runuser: cannot set groups: Operation not permitted
+31-10-2013 16:20:00 PDT run-camus-production ERROR - Job run failed!
+31-10-2013 16:20:00 PDT run-camus-production ERROR - azkaban.jobExecutor.utils.process.ProcessFailureExceptionazkaban.jobExecutor.utils.process.ProcessFailureException
+31-10-2013 16:20:00 PDT run-camus-production INFO - Finishing job run-camus-production at 1383261600549

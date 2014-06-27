@@ -1,0 +1,11 @@
+31-10-2013 15:56:00 PDT atom-download-http-access-logs INFO - Starting job atom-download-http-access-logs at 1383260160734
+31-10-2013 15:56:00 PDT atom-download-http-access-logs INFO - Building command job executor. 
+31-10-2013 15:56:00 PDT atom-download-http-access-logs INFO - job built.
+31-10-2013 15:56:00 PDT atom-download-http-access-logs INFO - 1 commands to execute.
+31-10-2013 15:56:00 PDT atom-download-http-access-logs INFO - Command: runuser -l acep -c "/data/acep/automation-scripts/pull-http-access-logs-2flows/download-http-access-logs.sh"
+31-10-2013 15:56:00 PDT atom-download-http-access-logs INFO - Environment variables: {JOB_NAME=atom-download-http-access-logs, JOB_PROP_FILE=/data/acep/kafka8-merge-camus/executions/6739/atom-download-http-access-logs_6834926112666098453_tmp, JOB_OUTPUT_PROP_FILE=/data/acep/kafka8-merge-camus/executions/6739/atom-download-http-access-logs_output_8907605385177425812_tmp}
+31-10-2013 15:56:00 PDT atom-download-http-access-logs INFO - Working directory: /data/acep/kafka8-merge-camus/executions/6739
+31-10-2013 15:56:00 PDT atom-download-http-access-logs INFO - Process completed unsuccessfully in 0 seconds.
+31-10-2013 15:56:00 PDT atom-download-http-access-logs ERROR - Job run failed!
+31-10-2013 15:56:00 PDT atom-download-http-access-logs ERROR - azkaban.jobExecutor.utils.process.ProcessFailureExceptionazkaban.jobExecutor.utils.process.ProcessFailureException
+31-10-2013 15:56:00 PDT atom-download-http-access-logs INFO - Finishing job atom-download-http-access-logs at 1383260160879

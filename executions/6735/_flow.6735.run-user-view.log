@@ -1,0 +1,11 @@
+31-10-2013 15:50:01 PDT run-user-view INFO - Running execid:6735 flow:run-user-view project:1 version:79
+31-10-2013 15:50:01 PDT run-user-view INFO - Update active reference
+31-10-2013 15:50:01 PDT run-user-view INFO - Updating initial flow directory.
+31-10-2013 15:50:01 PDT run-user-view INFO - Fetching job and shared properties.
+31-10-2013 15:50:01 PDT run-user-view INFO - Starting flows
+31-10-2013 15:50:01 PDT run-user-view INFO - Submitting job run-user-view to run.
+31-10-2013 15:50:01 PDT run-user-view INFO - Job Finished run-user-view with status FAILED
+31-10-2013 15:50:02 PDT run-user-view INFO - Finishing up flow. Awaiting Termination
+31-10-2013 15:50:02 PDT run-user-view INFO - Setting flow status to Failed.
+31-10-2013 15:50:02 PDT run-user-view INFO - Flow is set to FAILED
+31-10-2013 15:50:02 PDT run-user-view INFO - Setting end time for flow 6735 to 1383259802364

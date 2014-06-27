@@ -1,0 +1,11 @@
+31-10-2013 15:55:00 PDT hive-camus-insert-production INFO - Running execid:6738 flow:hive-camus-insert-production project:1 version:79
+31-10-2013 15:55:00 PDT hive-camus-insert-production INFO - Update active reference
+31-10-2013 15:55:00 PDT hive-camus-insert-production INFO - Updating initial flow directory.
+31-10-2013 15:55:00 PDT hive-camus-insert-production INFO - Fetching job and shared properties.
+31-10-2013 15:55:00 PDT hive-camus-insert-production INFO - Starting flows
+31-10-2013 15:55:00 PDT hive-camus-insert-production INFO - Submitting job hive-camus-insert-production to run.
+31-10-2013 15:55:00 PDT hive-camus-insert-production INFO - Job Finished hive-camus-insert-production with status FAILED
+31-10-2013 15:55:00 PDT hive-camus-insert-production INFO - Finishing up flow. Awaiting Termination
+31-10-2013 15:55:00 PDT hive-camus-insert-production INFO - Setting flow status to Failed.
+31-10-2013 15:55:00 PDT hive-camus-insert-production INFO - Flow is set to FAILED
+31-10-2013 15:55:00 PDT hive-camus-insert-production INFO - Setting end time for flow 6738 to 1383260100571

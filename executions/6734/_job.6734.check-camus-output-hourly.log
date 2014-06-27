@@ -1,0 +1,11 @@
+31-10-2013 15:50:00 PDT check-camus-output-hourly INFO - Starting job check-camus-output-hourly at 1383259800428
+31-10-2013 15:50:00 PDT check-camus-output-hourly INFO - Building command job executor. 
+31-10-2013 15:50:00 PDT check-camus-output-hourly INFO - job built.
+31-10-2013 15:50:00 PDT check-camus-output-hourly INFO - 1 commands to execute.
+31-10-2013 15:50:00 PDT check-camus-output-hourly INFO - Command: runuser -l acep -c "/data/acep/automation-scripts/hourly-automation-scripts/check-camus-output-hourly.sh"
+31-10-2013 15:50:00 PDT check-camus-output-hourly INFO - Environment variables: {JOB_NAME=check-camus-output-hourly, JOB_PROP_FILE=/data/acep/kafka8-merge-camus/executions/6734/check-camus-output-hourly_8352129470807140831_tmp, JOB_OUTPUT_PROP_FILE=/data/acep/kafka8-merge-camus/executions/6734/check-camus-output-hourly_output_2265238162008876720_tmp}
+31-10-2013 15:50:00 PDT check-camus-output-hourly INFO - Working directory: /data/acep/kafka8-merge-camus/executions/6734
+31-10-2013 15:50:00 PDT check-camus-output-hourly INFO - Process completed unsuccessfully in 0 seconds.
+31-10-2013 15:50:00 PDT check-camus-output-hourly ERROR - Job run failed!
+31-10-2013 15:50:00 PDT check-camus-output-hourly ERROR - azkaban.jobExecutor.utils.process.ProcessFailureExceptionazkaban.jobExecutor.utils.process.ProcessFailureException
+31-10-2013 15:50:00 PDT check-camus-output-hourly INFO - Finishing job check-camus-output-hourly at 1383259800973

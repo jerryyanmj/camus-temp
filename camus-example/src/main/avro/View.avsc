@@ -1,0 +1,152 @@
+{
+  "type": "record",
+  "name": "View",
+  "doc": "A view record",
+  "namespace": "com.twc.bigdata.views.avro",
+  "fields": [
+    {"name": "identifiers", "type":
+      { "type": "record", "name": "identifiers", "fields": [
+        {"name": "view_id", "type": "string"},
+        {"name": "content_view_id", "type": "int"},
+        {"name": "session_id", "type": "string"},
+	{"name": "pi_session_id", "type": "string"},
+        {"name": "playback_type", "type": "string"}
+      ]}
+     },
+     {"name": "user_info","type": ["null",
+       {"type": "record", "name": "user_info", "fields": [
+          {"name": "user_guid", "type": "string"},
+          {"name": "account_number_md5_salt_hashed", "type": ["null", "string"], "default": null},
+          {"name": "market", "type": ["null", "string"], "default": null},
+          {"name": "soa_division", "type": ["null", "string"], "default": null},
+          {"name": "latitude", "type": ["null", "double"], "default": null},
+          {"name": "longitude", "type": ["null", "double"], "default": null},
+          {"name": "city", "type": ["null", "string"], "default": null},
+          {"name": "state", "type": ["null", "string"], "default": null},
+          {"name": "account_number_am_hashed", "type": ["null", "string"], "default": null}
+         ]}],
+        "default": null
+     },
+     {"name": "platform_info","type": ["null",
+       {"type": "record", "name": "platform_info", "fields": [
+         {"name": "platform", "type": "string"},
+         {"name": "os", "type": ["null", "string"], "default": null},
+         {"name": "device_model", "type": ["null", "string"], "default": null},
+         {"name": "form_factor", "type": ["null", "string"], "default": null}
+       ]}],
+       "default": null
+     },
+     {"name": "content_info","type": ["null",
+       {"type": "record", "name": "content_info", "fields": [
+         {"name": "asset_id","type": ["null",
+                {"type": "record", "name": "asset_id", "fields": [
+                  {"name": "platform_id", "type": ["null", "string"], "default": null},
+                  {"name": "tms_id", "type":  ["null", "string"], "default": null}
+                ]}
+         ]},
+         {"name": "title", "type": ["null", "string"], "default": null},
+         {"name": "episode_title", "type": ["null", "string"], "default": null},
+         {"name": "run_time", "type": ["null", "string"], "default": null},
+         {"name": "asset_type", "type": ["null", "string"], "default": null},
+         {"name": "content_type", "type": ["null", "string"], "default": null},
+         {"name": "callsign", "type": ["null", "string"], "default": null},
+         {"name": "tv_rating", "type": ["null", "string"], "default": null},
+         {"name": "genres", "type": ["null",
+           {"type": "array", "name": "genres_list", "items":
+             {"name": "genre", "type": "string"}
+           }],
+           "default": null
+         },
+         {"name": "vod_content_info", "type": ["null", 
+             {"type": "record", "name": "vod_content_info", "fields": [
+                 {"name": "product_provider", "type": ["null", "string"], "default": null},
+                 {"name": "network", "type": ["null", "string"], "default": null}
+             ]}],
+             "default": null
+         },
+         {"name": "live_content_info", "type": ["null", 
+             {"type": "record", "name": "live_content_info", "fields": [
+                 {"name": "tms_channel_id", "type": ["null", "string"], "default": null},
+                 {"name": "channel_number", "type": ["null", "string"], "default": null},
+                 {"name": "gm_time", "type": ["long", "null"], "default": 0}
+             ]}],
+             "default": null
+         }]
+       }], 
+       "default": null 
+     },
+     {"name": "delivery_info","type": ["null",
+       {"type": "record", "name": "delivery_info", "fields": [
+         {"name": "delivery_format", "type": ["null", "string"]},
+         {"name": "definition", "type": ["null", "string"]},
+         {"name": "network_provider", "type": ["null", "string"]},
+         {"name": "out_of_home", "type": ["null", "boolean"], "default": null}
+         ]}],
+        "default": null
+     }, 
+     {"name": "viewing_info","type": ["null",
+       {"type": "record", "name": "viewing_info", "fields": [
+         {"name": "start_time", "type": ["long", "null"], "default": 0}, 
+         {"name": "end_time", "type": ["long", "null"], "default": 0},
+         {"name": "offset", "type": ["long", "null"], "default": 0},
+         {"name": "play_seconds", "type": ["int", "null"], "default": 0},
+         {"name": "seconds_watched", "type": ["int", "null"], "default": 0},
+         {"name": "furthest_point", "type":["int", "null"], "default": 0},
+         {"name": "stream_failed", "type": ["int", "null"], "default": 0}
+         ]}],
+        "default": null
+     },
+     {"name": "trick_mode","type": ["null",
+       {"type": "record", "name": "trick_mode", "fields": [
+         {"name": "count_blocked_seeks", "type": "int"}
+         ]}],
+        "default": null
+     },
+     {"name": "quality_metrics","type": ["null",
+       {"type": "record", "name": "quality_metrics", "fields": [
+          {"name": "seconds_below_abrx", "type": ["int", "null"], "default": 0},
+          {"name": "startup_msec", "type": ["int", "null"], "default": 0},
+          {"name": "abandon_time", "type": ["int", "null"], "default": 0},
+          {"name": "count_buffer_events", "type": ["int", "null"], "default": 0},
+          {"name": "buffer_msec", "type": ["int", "null"], "default": 0},
+          {"name": "weighted_abr", "type": ["int", "null"], "default": 0}
+         ]}],
+        "default": null
+     },
+     {"name": "content_discovery","type": ["null",
+       {"type": "record", "name": "content_discovery", "fields": [
+         {"name": "content_access", "type": ["null", "string"], "default": null},
+         {"name": "triggered_by", "type": ["null", "string"], "default": null},
+         {"name": "search_term", "type": ["null", "string"], "default": null},
+         {"name": "search_index", "type": ["int", "null"], "default": 0},
+         {"name": "pod_index", "type": ["int", "null"], "default": 0},
+         {"name": "pod_category", "type": ["null", "string"], "default": null},
+         {"name": "network_name", "type": ["null", "string"], "default": null}
+         ]}],
+        "default": null
+     },
+    {"name": "view_state","type": ["null",
+       {"type": "record", "name": "view_state", "fields": [
+         {"name": "last_event_seen_msec", "type": ["long", "null"], "default": 0},
+         {"name": "stopped_event_seen_msec", "type": ["long", "null"], "default": 0},
+         {"name": "emit_msec", "type": ["long", "null"], "default": 0},
+         {"name": "current_bit_rate", "type": ["int", "null"], "default": 0},
+         {"name": "play_state", "type": ["int", "null"], "default": 0},
+         {"name": "is_buffering", "type": ["null", "boolean"], "default": null},
+         {"name": "is_complete", "type": ["null", "boolean"], "default": null}
+         ]}],
+        "default": null
+     },
+     {"name": "view_metadata","type": ["null",
+        {"type": "record", "name": "view_metadata", "fields": [
+          {"name": "anomalies", "type": ["null",
+             {"type": "array", "name": "anomalies_list", "items":
+               {"name": "anomaly", "type": "string"}
+             }],
+             "default": null
+          }
+          ]}],
+         "default": null
+     }
+   ]
+}

@@ -1,0 +1,14 @@
+31-10-2013 16:26:00 PDT download-and-parse-atom-logs INFO - Running execid:6754 flow:download-and-parse-atom-logs project:1 version:79
+31-10-2013 16:26:00 PDT download-and-parse-atom-logs INFO - Update active reference
+31-10-2013 16:26:00 PDT download-and-parse-atom-logs INFO - Updating initial flow directory.
+31-10-2013 16:26:00 PDT download-and-parse-atom-logs INFO - Fetching job and shared properties.
+31-10-2013 16:26:00 PDT download-and-parse-atom-logs INFO - Starting flows
+31-10-2013 16:26:00 PDT download-and-parse-atom-logs INFO - Submitting job atom-download-http-access-logs to run.
+31-10-2013 16:26:00 PDT download-and-parse-atom-logs INFO - Job Finished atom-download-http-access-logs with status FAILED
+31-10-2013 16:26:00 PDT download-and-parse-atom-logs INFO - Killing atom-parse-raw-logs due to prior errors.
+31-10-2013 16:26:00 PDT download-and-parse-atom-logs INFO - Killing atom-hive-insert-parsed due to prior errors.
+31-10-2013 16:26:00 PDT download-and-parse-atom-logs INFO - Killing download-and-parse-atom-logs due to prior errors.
+31-10-2013 16:26:00 PDT download-and-parse-atom-logs INFO - Finishing up flow. Awaiting Termination
+31-10-2013 16:26:00 PDT download-and-parse-atom-logs INFO - Setting flow status to Failed.
+31-10-2013 16:26:00 PDT download-and-parse-atom-logs INFO - Flow is set to FAILED
+31-10-2013 16:26:00 PDT download-and-parse-atom-logs INFO - Setting end time for flow 6754 to 1383261960546
